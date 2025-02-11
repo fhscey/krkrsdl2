@@ -693,12 +693,12 @@ void TVPDetectCPU()
 	TVPDisableCPU(TVP_CPU_HAS_FMA3, TJS_W("-cpufma3"));
 	TVPDisableCPU(TVP_CPU_HAS_AES, TJS_W("-cpuaes"));
 
-#ifdef _WIN32
+/*#ifdef _WIN32
 	if(TVPCPUType == 0)
 		throw Exception( TVPFormatMessage(TVPCpuCheckFailureNotSupprtedCpu, cpuinfo).c_str() );
 
 	TVPAddImportantLog( TVPFormatMessage(TVPInfoFinallyDetectedCpuFeatures,TVPDumpCPUFeatures(TVPCPUType)) );
-#endif
+#endif*/
 }
 //---------------------------------------------------------------------------
 
