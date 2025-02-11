@@ -30,7 +30,8 @@
         "**.cmake",
         "CMakeLists.txt"
       ]
-    }
+    },
+    "workflow_dispatch" :
   },
   "env" : {
     "CMAKE_GENERATOR" : "Ninja",
